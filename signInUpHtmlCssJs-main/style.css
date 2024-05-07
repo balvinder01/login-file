@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(255, 225, 198);
+}
+.components{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.image {
+   
+    width: 50%; 
+    height: 100%; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    margin-top: 10px;
+    height: 100px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.login form input{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.login form button{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(253, 122, 35);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login form button:hover{
+    background-color: rgb(234, 112, 31);
+}
+.operation{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.signup{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.signup form input{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.signup form button{
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(253, 122, 35);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signup form button:hover{
+    background-color: rgb(234, 112, 31);
+}
+.social-buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 15px;
+}
+.socialLogo{
+    height: 40px;
+    transition: ease-in-out;
+    transition-duration: 0.3s
+
+}
+.socialLogo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.socialButton{
+    background-color: transparent;
+    border: none;
+}
+.changeOperation{
+    background-color: transparent;
+    border: none;
+    color: rgb(253, 122, 35);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.forgetPass{
+    background-color: transparent;
+    border: none;
+    color: rgb(253, 122, 35);
+    font-weight: bold;
+    cursor: pointer;
+}
